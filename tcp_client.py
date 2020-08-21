@@ -18,5 +18,5 @@ while True:
     data = tcp_socket.recv(1024)
     print("Server:",data.decode())
 
-# 关闭
+
 tcp_socket.close()
